@@ -32,10 +32,11 @@ section#telefone{
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+    z-index: 0;
 }
 
 iframe#tela{
-    position: relative;
+    position: absolute;
     top: 80px;
     left: 22px;
     width: 267px;
@@ -43,6 +44,7 @@ iframe#tela{
 }
 
 section#redes-sociais{
+    position: relative;
     text-align: right;
 }
 
